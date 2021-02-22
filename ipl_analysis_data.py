@@ -1,6 +1,6 @@
 #   project name        : IPL analysis
-#   made by             : rakesh kumar
-#   email               : rakesh@binarynote.com
+#   made by             : Alok Kumar Tiwari
+#   email               : kumaraloktiwaridav@gmail.com
 #   session             : 2020-21
 
 import pandas as pd
@@ -9,7 +9,7 @@ import sqlalchemy
 import matplotlib.pyplot as plt
 
 df = pd.DataFrame()
-csv_file = "C:/Users/rakesh/Desktop/IP_notes/12IP/Projects/matches.csv"
+csv_file = "ipproject/matches.csv"
 
 
 def introduction():
@@ -33,7 +33,7 @@ def introduction():
 
           NOTE: Python is case-SENSITIVE so type exact Column Name wherever required.
 
-          If you have any query or suggestions please contact me at rakesh@binarynote.com \n\n\n\n'''
+          \n\n\n\n'''
     for x in msg:
         print(x, end='')
         time.sleep(0.002)
@@ -42,9 +42,9 @@ def introduction():
 
 def made_by():
     msg = ''' 
-            IPL Data Analysis made by       : xyx
-            Roll No                         : 1234
-            School Name                     : Your school name
+            IPL Data Analysis made by       : Alok
+            Roll No                         : 4
+            School Name                     : D.A.V. Centenary Public School, Haridwar
             session                         : 2020-21
             
             Thanks for evaluating my Project.
